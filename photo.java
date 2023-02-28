@@ -6,12 +6,12 @@
 // }
 
 public class Photo {
-    String url;
-    String filename;
-    Doble width;
-    Doble height;
+    private String url;
+    private String filename;
+    private double width;
+    private double height;
 
-    constructor(String url, String filename, Doble width, Doble height) {
+    public Photo(String url, String filename, double width, double height) {
     this.url = url;
     this.filename = filename;
     this.width = width;
