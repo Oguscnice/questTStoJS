@@ -11,16 +11,16 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-class User {
-    private Date birthdate;
-    private double size;
-    private Photo[] photos;
-    private Address address; 
+public class User {
+  private Date birthdate;
+  private int size;
+  private Photo[] photo;
+  private Address address;
 
-      public User(Date birthdate, double size, Photo[] photos, Address address){
+  public User (Date birthdate, int size, Photo[] photo, Address address){
     this.birthdate = birthdate;
     this.size = size;
-    this.photos = photos;
+    this.photo = photo;
     this.address = address;
   }
 }
